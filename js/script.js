@@ -8,10 +8,39 @@ let CONFIG = {
    */
   commands: [
     {
-      name: 'Duckduckgo',
+      name: 'Google',
       key: '*',
-      url: 'https://duckduckgo.com',
-      search: '/?q={}'
+      url: 'https://google.ca',
+      search: '/search?q={}',
+      color: '#4285F4',
+    },
+    {
+      category: 'Custom',
+      name: 'Whatsapp',
+      key: 'w',
+      url: 'https://web.whatsapp.com',
+      color: '#25d366',
+      icon: 'whatsapp',
+      quickLaunch: false,
+    },
+    {
+      category: 'Custom',
+      name: 'Amazon',
+      key: 'a',
+      url: 'https://amazon.ca',
+      search: '/s?k={}',
+      color: '#FF9900',
+      icon: 'amazon',
+      quickLaunch: false,
+    },
+    {
+      category: 'Custom',
+      name: 'Outlook',
+      key: 'o',
+      url: 'https://outlook.com',
+      color: '#0072C6',
+      icon: 'outlook',
+      quickLaunch: false,
     },
     {
       category: 'General',
